@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pooja Box Navbar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <header>
+        <div class="promo-bar">
+            <p>GET 10% OFF WITH CODE: ILOVEMPB</p>
+        </div>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#"><img src="assets/logo.svg" alt="My Pooja Box"></a>
+            </div>
+            <ul class="nav-links">
+                <li class="dropdown"><a href="#">Shop</a></li>
+                <li><a href="#">Home Decor</a></li>
+                <li><a href="#">Festive Decor</a></li>
+                <li><a href="#">Corporate Gifting</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#" class="search-icon"><i class="bi bi-search"></i>Search</a>
+                <a href="#" class="cart-icon"><i class="bi bi-bag-check"></i>Cart</a>
+            </div>
+            <div class="mobile-menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="video-contianer">
+        <a class="video-link" href="">
+            <video width="1380" height="800" autoplay loop muted plays-inline class="background-clip">
+                <source src="assets/video.mp4" type="video/mp4"> "Your browser does not support the video tag."
+            </video>
+        </a>
+    </div>
+
+
+    <div class="slider">
+      <button class="prev" onclick="prevSlide()">&#10094;</button>
+      <div class="slider-container">
+          <div class="slide">
+              <img src="assets/evil-eye.avif" alt="evil-eye">
+              <p>evil eye</p>
+          </div>
+          <div class="slide">
+              <img src="assets/pooja-thali.webp" alt="pooja-thali">
+              <p>pooja thali</p>
+          </div>
+          <div class="slide">
+              <img src="assets/rose-quartz.avif" alt="rose-quartz">
+              <p>rose quartz</p>
+          </div>
+          <div class="slide">
+              <img src="assets/urlis.webp" alt="urlis">
+              <p>urlis</p>
+          </div>
+          <div class="slide">
+              <img src="assets/pyrite.webp" alt="pyrite">
+              <p>pyrite</p>
+          </div>
+          <div class="slide">
+              <img src="assets/citrine.webp" alt="citrine">
+              <p>citrine</p>
+          </div>
+          <div class="slide">
+              <img src="assets/chanting-box.avif" alt="chanting-box">
+              <p>chanting box</p>
+          </div>
+          <div class="slide">
+              <img src="assets/amethyst.webp" alt="amethyst">
+              <p>amethyst</p>
+          </div>
+          <div class="slide">
+              <img src="assets/aura-cleansing.webp" alt="aura-cleansing">
+              <p>aura cleansing</p>
+          </div>
+          <div class="slide">
+            <img src="assets/clear-quartz.avif" alt="clear-quartz">
+            <p>clear-quartz</p>
+        </div>
+        <div class="slide">
+          <img src="assets/moonstone.webp" alt="moonstone">
+          <p>moonstone</p>
+      </div>
+      </div>
+      <button class="next" onclick="nextSlide()">&#10095;</button>
+  </div>
+
+  <section class="products-section">
+    <div class="festive-decor">
+        <div class="section-title">
+            <h2>Festive <em>Decor</em></h2>
+        </div>
+        <div class="view-all">
+            <button class="view-all-button">VIEW ALL</button>
+        </div>
+    </div>
+
+    <div class="products-container">
+        <div class="product-card">
+            <img src="assets/festive-decor/golden-floral.avif" alt="Traditional Golden Floral Urli">
+            <div class="price">₹3,999</div>
+            <p>Traditional Golden Floral Urli</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/festive-decor/floral-diya.webp" alt="Aesthetic Floral Urli With Diya">
+            <div class="discount">23% OFF</div>
+            <div class="price">
+                <span class="old-price">₹1,299</span> ₹999
+            </div>
+            <p>Aesthetic Floral Urli With Diya</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/festive-decor/layer-diya.avif" alt="Exquisite Layer Diya Urli Stand">
+            <div class="discount">35% OFF</div>
+            <div class="price">
+                <span class="old-price">₹1,999</span> ₹1,299
+            </div>
+            <p>Exquisite Layer Diya Urli Stand</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/festive-decor/grand-rangoli.webp" alt="Grand Rangoli Urli/Tealight Stand">
+            <div class="price">₹4,399</div>
+            <p>Grand Rangoli Urli/Tealight Stand</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/festive-decor/antique-brass.avif" alt="Handcrafted Antique Brass Fumer">
+            <div class="discount">13% OFF</div>
+            <div class="price">
+                <span class="old-price">₹2,999</span> ₹2,599
+            </div>
+            <p>Handcrafted Antique Brass Fumer</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/festive-decor/lotus-diya.avif" alt="Astounding Lotus Diya Urli">
+            <div class="discount">23% OFF</div>
+            <div class="price">
+                <span class="old-price">₹1,299</span> ₹999
+            </div>
+            <p>Astounding Lotus Diya Urli</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+    </div>
+</section>
+
+<section class="products-section">
+    <div class="festive-decor">
+        <div class="section-title">
+            <h2>Pooja <em>Essentails</em></h2>
+        </div>
+        <div class="view-all">
+            <button class="view-all-button">VIEW ALL</button>
+        </div>
+    </div>
+
+    <div class="products-container">
+        <div class="product-card">
+            <img src="assets/pooja-essentails/gayatri.avif" alt="Traditional Golden Floral Urli">
+            <div class="discount">40% OFF</div>
+            <div class="price"><span class="old-price">₹999</span> ₹599</div>
+            <p>gayatri mantra musical chanting s...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/pooja-essentails/hare-krishna.avif" alt="Aesthetic Floral Urli With Diya">
+            <div class="discount">40% OFF</div>
+            <div class="price">
+                <span class="old-price">₹999</span> ₹599
+            </div>
+            <p>hare krishna musical chanting ma...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/pooja-essentails/ek.avif" alt="Exquisite Layer Diya Urli Stand">
+            <div class="discount">50% OFF</div>
+            <div class="price">
+                <span class="old-price">₹999</span> ₹499
+            </div>
+            <p>ek onkar devotional chanting ma...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/pooja-essentails/sai-mantra.avif" alt="Grand Rangoli Urli/Tealight Stand">
+            <div class="discount">50% OFF</div>
+            <div class="price">
+                <span class="old-price">₹999</span> ₹499
+            </div>
+            <p>sai mantra musical chanting speak...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/pooja-essentails/mantra.avif" alt="Handcrafted Antique Brass Fumer">
+            <div class="discount">50% OFF</div>
+            <div class="price">
+                <span class="old-price">₹999</span> ₹499
+            </div>
+            <p>gayatri mantra musical chanting s...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/pooja-essentails/krishna.avif" alt="Astounding Lotus Diya Urli">
+            <div class="discount">50% OFF</div>
+            <div class="price">
+                <span class="old-price">₹999</span> ₹499
+            </div>
+            <p>krishna maha mantra musical cha...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+    </div>
+</section>
+
+<section class="products-section">
+    <div class="festive-decor">
+        <div class="section-title">
+            <h2>Healing <em>Crystals</em></h2>
+        </div>
+        <div class="view-all">
+            <button class="view-all-button">VIEW ALL</button>
+        </div>
+    </div>
+
+    <div class="products-container">
+        <div class="product-card">
+            <img src="assets/healing-crystals/rose.webp" alt="Traditional Golden Floral Urli">
+            <div class="discount">29% OFF</div>
+            <div class="price"><span class="old-price">₹699</span> ₹499</div>
+            <p>rose quartz Crystal healing bracel...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/healing-crystals/amethyst.avif" alt="Aesthetic Floral Urli With Diya">
+            
+            <div class="price">₹599</div>
+            <p>amethyst natural stone bracelet |... </p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/healing-crystals/money.avif" alt="Exquisite Layer Diya Urli Stand">
+            <div class="price">₹999</div>
+            <p>money magnet healing crystal bra...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/healing-crystals/9.webp" alt="Grand Rangoli Urli/Tealight Stand">
+            <div class="discount">23% OFF</div>
+            <div class="price"><span class="old-price">₹1,299</span> ₹999</div>
+            <p>9 powerful healing crystals tumbl...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/healing-crystals/rose1.avif" alt="Handcrafted Antique Brass Fumer">
+            
+            <div class="price">₹699</div>
+            <p>rose quartz crystal healing bracel...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/healing-crystals/amethyst1.avif" alt="Astounding Lotus Diya Urli">
+            
+            <div class="price">₹599</div>
+            <p>amethyst crystal healing bracelet...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+    </div>
+</section>
+
+<section class="products-section">
+    <div class="festive-decor">
+        <div class="section-title">
+            <h2>Pooja Room <em>Decor</em></h2>
+        </div>
+        <div class="view-all">
+            <button class="view-all-button">VIEW ALL</button>
+        </div>
+    </div>
+
+    <div class="products-container">
+        <div class="product-card">
+            <img src="assets/pooja-room-decor/gloden.avif" alt="Traditional Golden Floral Urli">
+            <div class="price">₹299</div>
+            <p>golden flower bliss brass arti diya</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/pooja-room-decor/designer.avif" alt="Aesthetic Floral Urli With Diya">
+            
+            <div class="price">₹199</div>
+            <p>designer golden arti wooden han...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/pooja-room-decor/brass.avif" alt="Exquisite Layer Diya Urli Stand">
+            
+            <div class="price">₹599</div>
+            <p>brass panch jyoti wooden handle...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/pooja-room-decor/classic.avif" alt="Grand Rangoli Urli/Tealight Stand">
+            <div class="price">₹399</div>
+            <p>classic brass akhand jyoti diya </p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/pooja-room-decor/panch.avif" alt="Handcrafted Antique Brass Fumer">
+            
+            <div class="price">₹599</div>
+            <p>panch jyoti long handle brass arti...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/pooja-room-decor/peacock.avif" alt="Astounding Lotus Diya Urli">
+            
+            <div class="price">₹5,099</div>
+            <p>peacock antique brass wall bracket</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+    </div>
+</section>
+
+<section class="products-section">
+    <div class="festive-decor">
+        <div class="section-title">
+            <h2>Pooja Thali <em>Sets</em></h2>
+        </div>
+        <div class="view-all">
+            <button class="view-all-button">VIEW ALL</button>
+        </div>
+    </div>
+
+    <div class="products-container">
+        <div class="product-card">
+            <img src="assets/pooja-thali-sets/traditional.webp" alt="Traditional Golden Floral Urli">
+            <div class="price">₹799</div>
+            <p>Traditional Gota zari pooja thali 8</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/pooja-thali-sets/elegant.avif" alt="Aesthetic Floral Urli With Diya">
+            
+            <div class="price">₹7,499</div>
+            <p>elegant silver pooja thali set</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/pooja-thali-sets/traditional1.avif" alt="Exquisite Layer Diya Urli Stand">
+           
+            <div class="price">₹4,999</div>
+            <p>traditional minakari brass peacock...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/pooja-thali-sets/exclusive.avif" alt="Grand Rangoli Urli/Tealight Stand">
+            <div class="price">₹3,999</div>
+            <p>exclusive silver pooja thali set </p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/pooja-thali-sets/banarasi.webp" alt="Handcrafted Antique Brass Fumer">
+         
+            <div class="price">₹1,699</div>
+            <p>banarasi heritage pooja thali set</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/pooja-thali-sets/royal.webp" alt="Astounding Lotus Diya Urli">
+            
+            <div class="price">₹999</div>
+            <p>royal zari pooja thali 20cm</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+    </div>
+</section>
+
+<section class="products-section">
+    <div class="festive-decor">
+        <div class="section-title">
+            <h2>God <em>Idols</em></h2>
+        </div>
+        <div class="view-all">
+            <button class="view-all-button">VIEW ALL</button>
+        </div>
+    </div>
+
+    <div class="products-container">
+        <div class="product-card">
+            <img src="assets/god-idols/regal.avif" alt="Traditional Golden Floral Urli">
+            <div class="price">₹599</div>
+            <p>regal ganesha samrat idol </p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/god-idols/adiyogi.avif" alt="Aesthetic Floral Urli With Diya">
+            
+            <div class="price">₹299</div>
+            <p>adiyogi shiva statue</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/god-idols/saraswati.avif" alt="Exquisite Layer Diya Urli Stand">
+            
+            <div class="price">₹599</div>
+            <p>sarswati maa vidya devi idol for...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/god-idols/vighnaharta.avif" alt="Grand Rangoli Urli/Tealight Stand">
+            <div class="price">₹599</div>
+            <p>vighnaharta ganesha idol for gift/...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/god-idols/makhan.avif" alt="Handcrafted Antique Brass Fumer">
+            
+            <div class="price">₹599</div>
+            <p>makhan chor krishna idol for gift/...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/god-idols/shakti.avif" alt="Astounding Lotus Diya Urli">
+            
+            <div class="price">₹599</div>
+            <p>shakti roop durga mata idol for gi...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+    </div>
+</section>
+
+<section class="products-section">
+    <div class="festive-decor">
+        <div class="section-title">
+            <h2>Evil <em>Eye</em></h2>
+        </div>
+        <div class="view-all">
+            <button class="view-all-button">VIEW ALL</button>
+        </div>
+    </div>
+
+    <div class="products-container">
+        <div class="product-card">
+            <img src="assets/evil-eye/evil.avif" alt="Traditional Golden Floral Urli">
+            <div class="discount">29% OFF</div>
+            <div class="price"><span class="old-price">₹699</span> ₹499</div>
+            <p>evil eye dream catcher for positiv...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/evil-eye/feng.avif" alt="Aesthetic Floral Urli With Diya">
+            <div class="discount">29% OFF</div>
+            <div class="price">
+                <span class="old-price">₹699</span> ₹499
+            </div>
+            <p>feng shui blue evil eye hanging</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/evil-eye/horse.webp" alt="Exquisite Layer Diya Urli Stand">
+            
+            <div class="price">₹699</div>
+            <p>horse shoe good luck feng shui e...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/evil-eye/evil1.avif" alt="Grand Rangoli Urli/Tealight Stand">
+            <div class="price">₹699</div>
+            <p>evil eye horse wall hanging prote...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/evil-eye/hand.avif" alt="Handcrafted Antique Brass Fumer">
+           
+            <div class="price">₹999</div>
+            <p>Hand-Painted big evil eye wall de...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/evil-eye/hand1.avif" alt="Astounding Lotus Diya Urli">
+            
+            <div class="price">₹699</div>
+            <p>Hand-Painted evil eye gold wall de...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+    </div>
+</section>
+
+<section class="products-section">
+    <div class="festive-decor">
+        <div class="section-title">
+            <h2>Salt <em>Lamps</em></h2>
+        </div>
+        <div class="view-all">
+            <button class="view-all-button">VIEW ALL</button>
+        </div>
+    </div>
+
+    <div class="products-container">
+        <div class="product-card">
+            <img src="assets/salt-lamps/floral.avif" alt="Traditional Golden Floral Urli">
+            <div class="price">₹1,599</div>
+            <p>floral design plug-in himalayan sa...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/salt-lamps/anahata.avif" alt="Aesthetic Floral Urli With Diya">
+            <div class="price">₹1,299</div>
+            <p>anahata design plug in himalayan...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/salt-lamps/himalayan.avif" alt="Exquisite Layer Diya Urli Stand">
+      
+            <div class="price">₹2,499</div>
+            <p>himalayan pink salt crescent moo...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/salt-lamps/himalayan1.avif" alt="Grand Rangoli Urli/Tealight Stand">
+            <div class="price">₹2,399</div>
+            <p>himalayan pink salt cylindrical glo...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/salt-lamps/himalayan2.avif" alt="Handcrafted Antique Brass Fumer">
+            <div class="discount">17% OFF</div>
+            <div class="price">
+                <span class="old-price">₹2,999</span> ₹2,499
+            </div>
+            <p>himalayan pink salt pyramid glow...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+    </div>
+</section>
+
+<section class="products-section">
+    <div class="festive-decor">
+        <div class="section-title">
+            <h2> <em>Urils</em></h2>
+        </div>
+        <div class="view-all">
+            <button class="view-all-button">VIEW ALL</button>
+        </div>
+    </div>
+
+    <div class="products-container">
+        <div class="product-card">
+            <img src="assets/urils/aesthetic.webp" alt="Traditional Golden Floral Urli">
+            <div class="discount">23% OFF</div>
+            <div class="price">
+                <span class="old-price">₹1,299</span> ₹999
+            </div>
+            <p>aesthetic floral urli with diya</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/urils/captivating.avif" alt="Aesthetic Floral Urli With Diya">
+            <div class="discount">29% OFF</div>
+            <div class="price">
+                <span class="old-price">₹1,399</span> ₹999
+            </div>
+            <p>captivating petal urli/floater</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/urils/exquisite.avif" alt="Exquisite Layer Diya Urli Stand">
+            <div class="discount">35% OFF</div>
+            <div class="price">
+                <span class="old-price">₹1,999</span> ₹1,299
+            </div>
+            <p>Exquisite Layer Diya Urli Stand</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/urils/decorative.avif" alt="Grand Rangoli Urli/Tealight Stand">
+            <div class="discount">43% OFF</div>
+            <div class="price">
+                <span class="old-price">₹2,299</span> ₹1,299
+            </div>
+            <p>decorative scallop golden urli</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/urils/astounding.avif" alt="Handcrafted Antique Brass Fumer">
+            <div class="discount">23% OFF</div>
+            <div class="price">
+                <span class="old-price">₹1,299</span> ₹999
+            </div>
+            <p>astounding lotus diya urli</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/urils/ambra.avif" alt="Astounding Lotus Diya Urli">
+            <div class="price">₹1,699</div>
+            <p>ambra urli</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+    </div>
+</section>
+
+<section class="products-section">
+    <div class="festive-decor">
+        <div class="section-title">
+            <h2>Table <em>Linen</em></h2>
+        </div>
+        <div class="view-all">
+            <button class="view-all-button">VIEW ALL</button>
+        </div>
+    </div>
+
+    <div class="products-container">
+        <div class="product-card">
+            <img src="assets/table-lenen/suhasini.webp" alt="Traditional Golden Floral Urli">
+            <div class="price">₹1,599</div>
+            <p>suhasini pink floral block print co...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/table-lenen/green.webp" alt="Aesthetic Floral Urli With Diya">
+            
+            <div class="price">₹1,499</div>
+            <p>green red meera floral block print...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/table-lenen/neelam.webp" alt="Exquisite Layer Diya Urli Stand">
+            
+            <div class="price">₹1,499</div>
+            <p>neelam blue floral block print co...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/table-lenen/blue.avif" alt="Grand Rangoli Urli/Tealight Stand">
+            <div class="price">₹1,599</div>
+            <p>blue zunaira floral printed cotton...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/table-lenen/green1.avif" alt="Handcrafted Antique Brass Fumer">
+            <div class="price">₹999</div>
+            <p>green red meera floral block print...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <img src="assets/table-lenen/suhasini1.avif" alt="Astounding Lotus Diya Urli">
+            <div class="price">₹1,499</div>
+            <p>suhasini pink floral block print co...</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+    </div>
+</section>
+
+
+<section class="reviews-section">
+    <div class="review-header">
+        <span class="rating">4.1</span>
+        <span class="stars">★★★★★</span>
+        <span class="review-count">1,681 reviews</span>
+        <p>Powered by <span class="google">Google</span></p>
+        <button class="write-review">Write a Review</button>
+    </div>
+
+    <div class="review-carousel">
+        <button class="carousel-btn prev-btn" onclick="prevReview()">&#10094;</button>
+        <div class="carousel-track">
+            <!-- Review 1 -->
+            <div class="review">
+                <div class="profile">
+                    <div class="profile-pic" style="background-color: #d10058;">S</div>
+                    <p class="reviewer-name">Shreya Arora</p>
+                    <p class="review-time">11 days ago</p>
+                    <p class="review-stars">★★★★★</p>
+                </div>
+                <p class="review-text">Love the product and quality, amazing!</p>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="review">
+                <div class="profile">
+                    <div class="profile-pic" style="background-color: #007bff;">N</div>
+                    <p class="reviewer-name">Nikita Dey</p>
+                    <p class="review-time">12 days ago</p>
+                    <p class="review-stars">★★★★★</p>
+                </div>
+                <p class="review-text">Really loved the crystal bracelets from my pooja box. Authentic and very comfortable to wear.</p>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="review">
+                <div class="profile">
+                    <div class="profile-pic" style="background-color: #017d76;">P</div>
+                    <p class="reviewer-name">Preety Maggo</p>
+                    <p class="review-time">15 days ago</p>
+                    <p class="review-stars">★★★★★</p>
+                </div>
+                <p class="review-text">I ordered lots of products from pooja box, especially decor products. It gives amazing feels on special occasions and festivals. Very nice!</p>
+            </div>
+
+            <!-- Review 4 -->
+            <div class="review">
+                <div class="profile">
+                    <div class="profile-pic" style="background-color: #d10058;">M</div>
+                    <p class="reviewer-name">Meena Gowda</p>
+                    <p class="review-time">16 days ago</p>
+                    <p class="review-stars">★★★★★</p>
+                </div>
+                <p class="review-text">Very good, I am very happy and the packing is very good 😊</p>
+            </div>
+
+            <!-- Review 5 -->
+            <div class="review">
+                <div class="profile">
+                    <div class="profile-pic" style="background-color: #ffb300;">Y</div>
+                    <p class="reviewer-name">Yash Baldawa</p>
+                    <p class="review-time">17 days ago</p>
+                    <p class="review-stars">★★★★★</p>
+                </div>
+                <p class="review-text">Products are awesome.</p>
+            </div>
+        </div>
+        <button class="carousel-btn next-btn" onclick="nextReview()">&#10095;</button>
+    </div>
+</section>
+
+
+<section class="hero-section">
+    <h1>My Pooja Box - A One-stop Festive Decor & Gifting Shop</h1>
+    <p>Being a one-stop pooja samagri online store in India, My Pooja Box bridges the gap between devotees and devotion. We have sorted all your devotional needs by putting forth a wide assortment of products by making it easier for you buy pooja items on...</p>
+    <a href="#" class="read-more">READ MORE</a>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features-section">
+    <div class="feature">
+      <i class="bi bi-truck"></i>
+      <p>Speedy delivery</p>
+    </div>
+    <div class="feature">
+        <i class="bi bi-geo-alt-fill"></i>
+      <p>Cash on delivery</p>
+    </div>
+    <div class="feature">
+        <i class="bi bi-wallet"></i>
+      <p>Easy returns</p>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="footer-container">
+      <div class="social-media">
+        <img src="assets/logo.svg" alt="My Pooja Box Logo" class="logo">
+        <p>The Art of Gifting</p>
+        <div class="social-icons">
+          <a href="#"><button class="btn facebook">Facebook</button></a>
+          <a href="#"><button class="btn instagram">Instagram</button></a>
+        </div>
+      </div>
+      
+      <div class="footer-links">
+        <div class="information">
+          <h3>Information</h3>
+          <ul>
+            <li><a href="#">Track your Order</a></li>
+            <li><a href="#">Returns and Refunds</a></li>
+            <li><a href="#">Holiday List</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Aartis</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Deals & Coupons</a></li>
+          </ul>
+        </div>
+        
+        <div class="about">
+          <h3>About My Pooja Box</h3>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Corporate Enquiry</a></li>
+            <li><a href="#">Exchange/Cancel My Order</a></li>
+          </ul>
+        </div>
+        
+        <div class="customer-care">
+          <h3>Customer Care</h3>
+          <p>Phone: +91 8010288882 | +91 8010188881</p>
+          <p>Email: <a href="mailto:orders@mypoojabox.com">orders@mypoojabox.com</a></p>
+          <p>Address: My Pooja Box, Jagat Complex,<br> 100 Ft Rd, Ghitorni, New Delhi 110030</p>
+        </div>
+      </div>
+      
+      
+    </div>
+    <div class="footer-bottom">
+        <div class="app-links">
+          <a href="#"><img src="assets/google-img.png" alt="Google Play"></a>
+          <a href="#"><img src="assets/apple-img.png" alt="App Store"></a>
+          <p>MOBIKASA VENTURES LLP</p>
+          
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024, All Rights Reserved. </p>
+            <select name="country" id="country">
+                <option value="india">India</option>
+                <option value="uk">UK</option>
+                <option value="us">US</option>
+            </select>
+            
+        </div>
+      </div>
+    </div>
+      <a href="" class="top"><i class="bi bi-whatsapp"></i></a>
+  </footer>
+
+  
+
+
+    
+    <script src="js/script.js"></script>
+
+</body>
+</html>
